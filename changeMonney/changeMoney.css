@@ -1,0 +1,16 @@
+
+body
+{
+padding: 50px;
+width:100%;
+font-size:15px;
+margin:10px 0;
+}
+button {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

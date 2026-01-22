@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="changeMoney.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th> Hệ thống quy đổi ngoại tệ</th>
+            <th>Số tiền</th>
+            <th>Ngoại tệ</th>
+        </tr>
+        <tr>
+            <td>Tỉ lệ hối đoái ngoại tệ</td>
+            <td><input type="text" id="formMoney"></td>
+            <td>
+                <select id="typeMoney1_1">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="typeMoney1_2">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+            <td><button onclick="changeMoney()">Chuyển đổi</button></td>
+        </tr>
+    </table>
+    <br>
+    <p id="haveMoney"></p>
+</body>
+</html>
+<script src="changeMoney.js"></script>
