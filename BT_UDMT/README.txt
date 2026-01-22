@@ -1,1 +1,1 @@
-Bài tập làm máy tính + - * / đơn giản trong file BT_UDMT_basic
+Bài tập làm máy tính + - * / basic trong file BT_UDMT_basic
