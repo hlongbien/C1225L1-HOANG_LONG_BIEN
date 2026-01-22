@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styleindex2.css">
+</head>
+<body>
+<h2>Khảo sát khách hàng </h2>
+<h4>Thông tin khách hàng:</h4>
+<label for="name">Họ và tên:</label><input id="name" type="text"><br>
+<label for="email">Email:</label><input id="email" type="text"><br>
+<label for="tuoi">Độ tuổi:<select id="tuoi">
+    <option>Dưới 18 tuổi</option>
+    <option>18-25 tuổi</option>
+    <option>26-35 tuổi</option>
+    <option>36-45 tuổi</option>
+    <option>Trên 45 tuổi</option>
+</select>
+</label><br>
+
+<label for="doHaiLong">Mức độ hài lòng:<select id="doHaiLong">
+    <option>Rất hài lòng</option>
+    <option>Hài lòng</option>
+    <option>Bình thường</option>
+    <option>Chưa hài lòng</option>
+
+</select>
+
+</label><br>
+<label for="feedback">Phản hồi:</label><br>
+<textarea id="feedback" rows="4" cols="50" ></textarea><br>
+<button id="submit">Submit</button><br>
+<script>
+    document.getElementById("submit").addEventListener("click",function (){
+        let name= document.getElementById("name").value;
+        let email= document.getElementById("email").value;
+        let tuoi= document.querySelector("#tuoi").value;
+        let doHaiLong= document.querySelector("#doHaiLong").value;
+        let feedBack= document.getElementById("feedback").value;
+        let message =
+            "Họ tên: " + name + "\n" +
+            "Email: " + email + "\n" +
+            "Độ tuổi: " + tuoi + "\n" +
+            "Mức độ hài lòng: " + doHaiLong + "\n" +
+            "Phản hồi: " + feedBack;
+
+        alert(message);
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    background-color: lightpink;
+    color: purple;
+    padding: 20px;
+}
+label{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+select{
+    margin-left: 10px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+input{
+    margin: 7px;
+    border-radius: 3px;
+}
+textarea{
+    margin-top: 10px;
+    border-radius: 3px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 30px;
+}
