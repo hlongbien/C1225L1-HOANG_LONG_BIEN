@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="BT_UDMT.css">
+</head>
+<body>
+
+<div class="calculator">
+  <input type="text" id="display" value="0" readonly>
+
+  <div class="buttons">
+    <button onclick="rad()">Rad</button>
+    <button onclick="deg()">deg</button>
+    <button onclick="factorial()">x!</button>
+    <button onclick="add('(')">(</button>
+    <button onclick="add(')')">)</button>
+    <button onclick="add('%')">%</button>
+    <button onclick="clearAll()">AC</button>   
+    
+    <button onclick="inv()">Inv</button>
+    <button onclick="add('sin')">sin</button>
+    <button onclick="add('ln')">ln</button>
+    <button class="num" onclick="add('7')">7</button>
+    <button class="num" onclick="add('8')">8</button>
+    <button class="num" onclick="add('9')">9</button>
+    <button onclick="add('/')">÷</button>
+
+    <button onclick="add('π')">π</button>
+    <button onclick="add('cos')">cos</button>
+    <button onclick="add('log')">log</button>
+    <button class="num" onclick="add('4')">4</button>
+    <button class="num" onclick="add('5')">5</button>
+    <button class="num" onclick="add('6')">6</button>
+    <button onclick="add('*')">×</button>
+
+    <button onclick="add('e')">e</button>
+    <button onclick="add('tan')">tan</button>
+    <button onclick="sqrt()">√</button>
+    <button class="num" onclick="add('1')">1</button>
+    <button class="num" onclick="add('2')">2</button>
+    <button class="num" onclick="add('3')">3</button>
+    <button onclick="add('-')">−</button>
+
+    <button onclick="add('Ans')">Ans</button>
+    <button onclick="add('EXP')">EXP</button>
+    <button onclick="square()">x²</button>
+    <button class="num" onclick="add('.')">.</button>
+    <button class="num" onclick="add('0')">0</button>
+    <button class="equal" onclick="calculate()">=</button>
+    <button onclick="add('+')">+</button>
+    
+    
+  </div>
+</div>
+
+<script src="BT_UDMT.js"></script>
+</body>
+</html>
