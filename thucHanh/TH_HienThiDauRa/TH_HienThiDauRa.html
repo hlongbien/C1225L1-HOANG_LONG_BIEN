@@ -1,0 +1,29 @@
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" >
+    <title>TH Hiện thị đầu ra</title>
+</head>
+<body>
+    <button type="button" onclick="showMessage1();">Click me</button>
+    <br>
+    <button type="button" onclick="showMessage2();">Click me</button>
+    <br>
+    <div id="massageDiv"></div>
+    <button type="button" onclick="showMessage3();">Click me</button>
+    <button type="button" onclick="showMessage4();">Click me</button>
+</body>
+</html>
+<script>
+    function showMessage1(){
+        alert('Xin chao!');
+    }
+    function showMessage2(){
+        document.write('Xin Chào!');
+    }
+    function showMessage3(){
+        document.getElementById('massageDivư').innerHTML='Xin Chào';
+    }
+    function showMessage4(){
+     console.log('Xin chào!');
+    }  
+</script>
